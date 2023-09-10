@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pedido.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>s2</title>
+</head>
+<body>
+    <div class="text">
+        <h1>Te amo!</h1>
+    </div>
+    <div class="secao-imagens">
+        <div class="content-slider">
+            <div class="slides">
+                <input class="input" type="radio" name="radio-btn" id="radio1" checked>
+                <input class="input" type="radio" name="radio-btn" id="radio2">
+                <input class="input" type="radio" name="radio-btn" id="radio3">
+                <input class="input" type="radio" name="radio-btn" id="radio4">
+                <input class="input" type="radio" name="radio-btn" id="radio5">
+                <input class="input" type="radio" name="radio-btn" id="radio6">
+                <input class="input" type="radio" name="radio-btn" id="radio7">
+                <input class="input" type="radio" name="radio-btn" id="radio8">
+                
+
+                <div class="slide first-slide" id="first">
+                    <img src="./assets/pedido-fotos/macchu-picchu.jpg" alt="camisa azul lisa"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/ollataytambo.jpg" alt="camisa azul"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/skin-care.jpg" alt="camisa de lado"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/primeira-foto.jpg" alt="camisa azul de costas"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/airsoft.jpg" alt="camisa azul de costas"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/elevador.jpg" alt="camisa azul de costas"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/casamento.jpg" alt="camisa azul de costas"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/niver.jpg" alt="camisa azul de costas"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/ollamtaytambo2.jpg" alt="camisa azul de costas"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/uber.jpg" alt="camisa azul de costas"/>
+                </div>
+                <div class="slide">
+                    <img src="./assets/pedido-fotos/aviao.jpg" alt="camisa azul de costas"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn radio1"></label>
+            <label for="radio2" class="manual-btn radio2"></label>
+            <label for="radio3" class="manual-btn radio3"></label>
+            <label for="radio4" class="manual-btn radio4"></label>
+            <label for="radio5" class="manual-btn radio5"></label>
+            <label for="radio6" class="manual-btn radio6"></label>
+            <label for="radio7" class="manual-btn radio7"></label>
+            <label for="radio8" class="manual-btn radio8"></label>
+        </div>
+    </div>
+    <div class="pedido">
+        <div class="centraliza-pedido">
+            <h2>Andrea,</h2>
+            <h3>você quer casar comigo?</h3>
+            <div class="inputs">
+                <div>
+                    <label for="sim-pedido" class="sim-label">Sim</label>
+                    <input type="radio" name="pedido" class="sim" id="sim-pedido">
+                </div>
+                <div>
+                    <label for="não-pedido" class="nao-label">Não</label>
+                    <input type="radio" name="pedido" class="não" id="não-pedido">
+                </div>
+            </div>
+            <div class="resposta">
+                <div class="aceitou">
+                    <iframe id="iframe-aceitou" width="320" height="190" src="https://www.youtube.com/embed/T_DCVUWZzjI?si=dBu4ZqaABU9NosPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="duvida">
+                    <img src="./assets/pedido-fotos/duvida.jpg">
+                </div>
+                <div class="rejeitou">
+                    <iframe id="iframe-rejeitou" width="320" height="190" src="https://www.youtube.com/embed/gErs1N4IgGA?si=750CXOZpOEyT7ugm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

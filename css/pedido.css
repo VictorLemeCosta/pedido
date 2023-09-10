@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-image: url('../assets/pedido-fotos/wallpaper.jpg');
+    background-size: contain;
+    height: 1500px;
+}
+
+.text {
+    margin: 30px auto 0;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    color: #302d2d;
+}
+
+.secao-imagens {
+    width: 100%;
+    height: 630px;
+    margin: 0 auto;
+}
+
+.content-slider {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+    width: 90%;
+}
+
+.slides input{
+    display: none;
+}
+
+.slides {
+    display: flex;
+    margin-top: 3%;
+    width: 400%;
+    height: 500px;
+}
+
+.slide img{
+    width: 320px;
+    height: 450px;
+    border: 1px solid #302d2d;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.manual-navigation {
+    display: flex;
+    position: absolute;
+    top: 650px;
+    left: 11%;
+}
+
+.manual-btn {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #f1f3f7;
+    background-color: #302d2d;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.manual-btn:hover {
+    background-color: #f1f3f7;
+    border: 2px solid #302d2d;
+}
+
+.manual-btn.checked {
+    background-color: #f1f3f7;
+    border: 2px solid #302d2d;
+  }
+
+#radio1:checked ~ .first-slide {
+    margin-left: 0;
+    transition: .7s;
+}
+
+#radio2:checked ~ .first-slide {
+    margin-left: -360px;
+    transition: .7s;
+}
+
+#radio3:checked ~ .first-slide {
+    margin-left: -720px;
+    transition: .7s;
+}
+
+#radio4:checked ~ .first-slide {
+    margin-left: -1080px;
+    transition: .7s;
+}
+
+#radio5:checked ~ .first-slide {
+    margin-left: -1440px;
+    transition: .7s;
+}
+
+#radio6:checked ~ .first-slide {
+    margin-left: -1800px;
+    transition: .7s;
+}
+
+#radio7:checked ~ .first-slide {
+    margin-left: -2160px;
+    transition: .7s;
+}
+
+#radio8:checked ~ .first-slide {
+    margin-left: -2520px;
+    transition: .7s;
+}
+
+.pedido {
+    height: 780px;
+    background-color: #302d2d;
+    color: #f1f3f7;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.centraliza-pedido {
+    margin: 0 auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.pedido h2 {
+    font-size: 30px;
+    width: 350px;
+}
+
+.pedido h3 {
+    font-size: 25px;
+    font-weight: 500;
+    width: 350px;
+}
+
+.inputs {
+    width: 320px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputs .sim {
+    display: none;
+}
+
+.inputs .sim-label {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.inputs .sim-label:hover {
+    cursor: pointer;
+    color: #302d2d;
+    border: 1px solid #302d2d;
+    background-color: #f1f3f7;
+    transition: .8s;
+}
+
+.inputs .não {
+    display: none;
+}
+
+.inputs .nao-label {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.inputs .nao-label:hover {
+    cursor: pointer;
+    color: #302d2d;
+    border: 1px solid #302d2d;
+    background-color: #f1f3f7;
+    transition: .8s;
+}
+
+.resposta {
+    width: 320px;
+    height: 190px;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 30px;
+    transition: transform 0.8s ease;
+}
+ 
+.duvida img {
+    width: 320px;
+    height: 190px;
+}
